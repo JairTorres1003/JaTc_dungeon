@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [Header("Moviment Player")]
+    [Header("Player")]
     [SerializeField] private CharacterController characterController;
-    [SerializeField] private float moveSpeed = 2f;
+    [Range (0, 2f)][SerializeField] private float moveSpeed = 1.5f;
     private float moveHorizontal;
     private float moveVertical;
     private Vector3 playerInput;
