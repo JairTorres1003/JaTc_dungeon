@@ -11,13 +11,15 @@ GameObject:
   - component: {fileID: 8143513379667380918}
   - component: {fileID: 3549456402335269964}
   - component: {fileID: 3139632837309917712}
-  - component: {fileID: 8754679475691874718}
+  - component: {fileID: 211345282075311683}
+  - component: {fileID: 4785508913797702756}
+  - component: {fileID: 3606320220464250996}
   m_Layer: 0
   m_Name: wall_door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8143513379667380918
 Transform:
@@ -85,8 +87,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8754679475691874718
-MeshCollider:
+--- !u!65 &211345282075311683
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -95,10 +97,35 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2768735262386946115}
+  serializedVersion: 2
+  m_Size: {x: 6, y: 1.4506786, z: 1.5000007}
+  m_Center: {x: 0, y: 3.2746606, z: 0.00000023841858}
+--- !u!65 &4785508913797702756
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3457232362571127380}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9536076, y: 2.596178, z: 1.5000007}
+  m_Center: {x: -2.0231962, y: 1.298089, z: 0.00000023841858}
+--- !u!65 &3606320220464250996
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3457232362571127380}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9677281, y: 2.5991707, z: 1.5000007}
+  m_Center: {x: 2.016136, y: 1.2995853, z: 0.00000023841858}
 --- !u!1 &3469250035393616015
 GameObject:
   m_ObjectHideFlags: 0
@@ -113,7 +140,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1354389114161584602
 Transform:
@@ -124,7 +151,7 @@ Transform:
   m_GameObject: {fileID: 3469250035393616015}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8143513379667380918}

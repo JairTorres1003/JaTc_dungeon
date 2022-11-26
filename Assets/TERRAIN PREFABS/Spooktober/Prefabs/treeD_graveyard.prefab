@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 3775110062157903763}
   - component: {fileID: 3882538454520336841}
   - component: {fileID: 5415227213063763629}
-  - component: {fileID: 3857495432784033801}
+  - component: {fileID: 7239941556415073279}
   m_Layer: 0
   m_Name: treeD_graveyard
   m_TagString: Untagged
@@ -116,8 +116,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3857495432784033801
-MeshCollider:
+--- !u!65 &7239941556415073279
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -126,10 +126,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1196907287877732803}
+  serializedVersion: 2
+  m_Size: {x: 0.6344755, y: 2.9947755, z: 0.6127801}
+  m_Center: {x: 0.014212877, y: 1.4973878, z: 0.014979765}
 --- !u!43 &1196907287877732803
 Mesh:
   m_ObjectHideFlags: 0

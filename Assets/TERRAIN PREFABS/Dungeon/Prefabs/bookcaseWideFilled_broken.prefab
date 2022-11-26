@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 1509533575255907305}
   - component: {fileID: 7986846565767274423}
   - component: {fileID: 3417253849870628946}
-  - component: {fileID: 4432981849363782497}
+  - component: {fileID: 6427572818879334653}
   m_Layer: 0
   m_Name: bookcaseWideFilled_broken
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1509533575255907305
 Transform:
@@ -91,8 +91,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4432981849363782497
-MeshCollider:
+--- !u!65 &6427572818879334653
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -101,10 +101,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2446341608400876032}
+  serializedVersion: 2
+  m_Size: {x: 1.994859, y: 2.0015185, z: 0.5333406}
+  m_Center: {x: 0, y: 0.9983516, z: 0}
 --- !u!1 &8519414114538357464
 GameObject:
   m_ObjectHideFlags: 0
@@ -119,7 +118,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5418767254495506743
 Transform:

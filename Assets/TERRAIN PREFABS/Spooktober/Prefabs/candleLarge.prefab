@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3799170565506736339}
   - component: {fileID: 6732580670583122701}
   - component: {fileID: 391739123055993966}
-  - component: {fileID: 24561092035681770}
+  - component: {fileID: 4160812719327285702}
   m_Layer: 0
   m_Name: candleLarge
   m_TagString: Untagged
@@ -64,7 +64,7 @@ MeshRenderer:
   m_Materials:
   - {fileID: 2100000, guid: 3cfa913de4940514593c31b6adbdc00d, type: 2}
   - {fileID: 2100000, guid: a2450c11f67d92641bd140d98fc0c2ea, type: 2}
-  - {fileID: 2100000, guid: 47c129fc13413664889376d8428585ec, type: 2}
+  - {fileID: 2100000, guid: 5d9ca13693b28ac499e4172b8d69d0ba, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -86,8 +86,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &24561092035681770
-MeshCollider:
+--- !u!65 &4160812719327285702
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -96,10 +96,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3286603028378499035}
+  serializedVersion: 2
+  m_Size: {x: 0.2779222, y: 0.6826214, z: 0.27792215}
+  m_Center: {x: 0, y: 0.3413107, z: 0.00000017881393}
 --- !u!1 &8865617518115328437
 GameObject:
   m_ObjectHideFlags: 0

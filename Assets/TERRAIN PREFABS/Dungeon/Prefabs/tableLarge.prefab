@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 2157931198081661068}
   - component: {fileID: 8559064373244410320}
   - component: {fileID: 1226022924972230766}
-  - component: {fileID: 596469168451587309}
+  - component: {fileID: 4235861714309375194}
   m_Layer: 0
   m_Name: tableLarge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2157931198081661068
 Transform:
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &596469168451587309
-MeshCollider:
+--- !u!65 &4235861714309375194
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,10 +94,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4319438923893153126}
+  serializedVersion: 2
+  m_Size: {x: 2.9977162, y: 0.70748615, z: 1.7150645}
+  m_Center: {x: 0.0005941391, y: 0.35374308, z: 0.003947228}
 --- !u!1 &2155418765599172522
 GameObject:
   m_ObjectHideFlags: 0
@@ -112,7 +111,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7822761047496884837
 Transform:

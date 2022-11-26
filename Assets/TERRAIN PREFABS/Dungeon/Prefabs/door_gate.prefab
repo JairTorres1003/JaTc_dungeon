@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4121560908261352721}
   - component: {fileID: 859555551812567810}
   - component: {fileID: 5643276810050057194}
-  - component: {fileID: 7330266812053328306}
+  - component: {fileID: 7824006185888894437}
   m_Layer: 0
   m_Name: door_gate
   m_TagString: Untagged
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 4980412614082168640}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1037456469840579604}
@@ -85,8 +85,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7330266812053328306
-MeshCollider:
+--- !u!65 &7824006185888894437
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -95,10 +95,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5067569787668467167}
+  serializedVersion: 2
+  m_Size: {x: 2.0000002, y: 2.54, z: 0.20141171}
+  m_Center: {x: -0.9999999, y: 0.18836975, z: 0.00070575625}
 --- !u!1 &7133868596327563931
 GameObject:
   m_ObjectHideFlags: 0

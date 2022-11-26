@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2649962356090479999}
   - component: {fileID: 3092777098239086284}
   - component: {fileID: 7395743962407952773}
-  - component: {fileID: 7281435583392898582}
+  - component: {fileID: 7922481170634830595}
   m_Layer: 0
   m_Name: fencePost
   m_TagString: Untagged
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7281435583392898582
-MeshCollider:
+--- !u!65 &7922481170634830595
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,10 +94,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1946873849706985391}
+  serializedVersion: 2
+  m_Size: {x: 0.39999998, y: 1.3799012, z: 0.39999998}
+  m_Center: {x: 0, y: 0.6899506, z: 0}
 --- !u!1 &6233910970555896824
 GameObject:
   m_ObjectHideFlags: 0

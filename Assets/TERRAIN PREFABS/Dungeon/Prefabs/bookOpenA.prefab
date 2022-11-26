@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 6629186226145438446}
   - component: {fileID: 7109517455802655045}
   - component: {fileID: 7645769845989041245}
-  - component: {fileID: 5344187841550256847}
+  - component: {fileID: 4771480692837933711}
   m_Layer: 0
   m_Name: bookOpenA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6629186226145438446
 Transform:
@@ -86,8 +86,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5344187841550256847
-MeshCollider:
+--- !u!65 &4771480692837933711
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -96,10 +96,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6232419668923179342}
+  serializedVersion: 2
+  m_Size: {x: 0.70320207, y: 0.13902166, z: 0.41657132}
+  m_Center: {x: -0.000000029802322, y: 0.032197088, z: 0.0024011433}
 --- !u!1 &1333136682207383479
 GameObject:
   m_ObjectHideFlags: 0
@@ -114,7 +113,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2428957458918845458
 Transform:

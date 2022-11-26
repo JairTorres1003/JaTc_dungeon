@@ -11,7 +11,9 @@ GameObject:
   - component: {fileID: 1581070772614848839}
   - component: {fileID: 8674343614837895510}
   - component: {fileID: 270364508528456176}
-  - component: {fileID: 8757495924381643714}
+  - component: {fileID: 5993792083176454027}
+  - component: {fileID: 6195536379943480285}
+  - component: {fileID: 3800912898027773661}
   m_Layer: 0
   m_Name: candleBundle
   m_TagString: Untagged
@@ -64,7 +66,7 @@ MeshRenderer:
   m_Materials:
   - {fileID: 2100000, guid: 3cfa913de4940514593c31b6adbdc00d, type: 2}
   - {fileID: 2100000, guid: a2450c11f67d92641bd140d98fc0c2ea, type: 2}
-  - {fileID: 2100000, guid: 47c129fc13413664889376d8428585ec, type: 2}
+  - {fileID: 2100000, guid: 5d9ca13693b28ac499e4172b8d69d0ba, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -86,8 +88,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8757495924381643714
-MeshCollider:
+--- !u!65 &5993792083176454027
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -96,10 +98,35 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8029029430946103595}
+  serializedVersion: 2
+  m_Size: {x: 0.1771834, y: 0.9308893, z: 0.18734655}
+  m_Center: {x: -0.040578865, y: 0.46165195, z: 0.074505135}
+--- !u!65 &6195536379943480285
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4259467143542225694}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1293914, y: 0.78754705, z: 0.16389444}
+  m_Center: {x: 0.115743086, y: 0.38998088, z: 0.002923634}
+--- !u!65 &3800912898027773661
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4259467143542225694}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.19132328, y: 0.53999835, z: 0.17287634}
+  m_Center: {x: -0.033508927, y: 0.26620653, z: -0.09510455}
 --- !u!1 &7201410606698280575
 GameObject:
   m_ObjectHideFlags: 0

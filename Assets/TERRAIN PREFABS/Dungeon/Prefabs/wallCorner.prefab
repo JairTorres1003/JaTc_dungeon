@@ -11,13 +11,14 @@ GameObject:
   - component: {fileID: 2191732801361254057}
   - component: {fileID: 1087832737159770985}
   - component: {fileID: 3105291801434520932}
-  - component: {fileID: 1562411348354243760}
+  - component: {fileID: 6799280846079129443}
+  - component: {fileID: 789486531527487962}
   m_Layer: 0
   m_Name: wallCorner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2191732801361254057
 Transform:
@@ -85,8 +86,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1562411348354243760
-MeshCollider:
+--- !u!65 &6799280846079129443
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -95,10 +96,22 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1333508021581641775}
+  serializedVersion: 2
+  m_Size: {x: 1.5111407, y: 4, z: 2.749966}
+  m_Center: {x: 0.0055351853, y: 2, z: 0.62498295}
+--- !u!65 &789486531527487962
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2345987232741008546}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7500353, y: 4, z: 1.4764359}
+  m_Center: {x: 0.62498236, y: 2, z: -0.011782259}
 --- !u!1 &6033030043152467584
 GameObject:
   m_ObjectHideFlags: 0
@@ -113,7 +126,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3416784177376224956
 Transform:
@@ -124,7 +137,7 @@ Transform:
   m_GameObject: {fileID: 6033030043152467584}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 1, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2191732801361254057}

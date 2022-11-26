@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 4552596180304369724}
   - component: {fileID: 1806442193183983698}
   - component: {fileID: 6877883430461063968}
-  - component: {fileID: 2086093579481536}
+  - component: {fileID: 8713207344694447770}
   m_Layer: 0
   m_Name: torchWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4552596180304369724
 Transform:
@@ -87,8 +87,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2086093579481536
-MeshCollider:
+--- !u!65 &8713207344694447770
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -97,10 +97,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1715693487106787038}
+  serializedVersion: 2
+  m_Size: {x: 0.43004918, y: 1.0887551, z: 0.724684}
+  m_Center: {x: -0.00020252913, y: 0.19085503, z: 0.18707025}
 --- !u!1 &6281999230200338798
 GameObject:
   m_ObjectHideFlags: 0
@@ -115,7 +114,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2714413503368482796
 Transform:

@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4246679502184264534}
   - component: {fileID: 4548958098662951965}
   - component: {fileID: 5996879037394358788}
-  - component: {fileID: 494808989969981189}
   m_Layer: 0
   m_Name: pathCobbled
   m_TagString: Untagged
@@ -84,20 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &494808989969981189
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4065807213702463842}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3214965824293224529}
 --- !u!1 &4197486523880610216
 GameObject:
   m_ObjectHideFlags: 0
